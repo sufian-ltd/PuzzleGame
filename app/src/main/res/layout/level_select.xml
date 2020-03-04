@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaa"
+    tools:context=".LevelSelect">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/buttonLvl1"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/a"
+                android:onClick="selectLevel" />
+
+            <Button
+                android:id="@+id/buttonLvl2"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/b"
+                android:onClick="selectLevel"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/buttonLvl3"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/c"
+                android:onClick="selectLevel"
+                android:text="" />
+
+            <Button
+                android:id="@+id/buttonLvl4"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:onClick="selectLevel"
+                android:background="@drawable/d"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/buttonLvl5"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:onClick="selectLevel"
+                android:background="@drawable/e"
+                android:text="" />
+
+            <Button
+                android:id="@+id/buttonLvl6"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:onClick="selectLevel"
+                android:background="@drawable/f"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/buttonLvl7"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:onClick="selectLevel"
+                android:background="@drawable/g"
+                android:text="" />
+
+            <Button
+                android:id="@+id/buttonLvl8"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:onClick="selectLevel"
+                android:background="@drawable/h"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/buttonLvl9"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:onClick="selectLevel"
+                android:background="@drawable/k"
+                android:text="" />
+
+            <Button
+                android:id="@+id/buttonLvl10"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:onClick="selectLevel"
+                android:background="@drawable/l"
+                android:text="" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
